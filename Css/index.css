@@ -1,0 +1,663 @@
+@import "/Css/componentes/header.css";
+@import "/Css/componentes/footer.css";
+@import "/css/index.css";
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "sans-serif";
+}
+main #imghome #home {
+  height: 230px;
+  width: 380px;
+  margin-top: 180px;
+  margin-left: 80px;
+}
+
+main #titulo {
+  font-size: 20px;
+  margin-left: 520px;
+  margin-top: -250px;
+}
+
+main #texto {
+  font-size: 25px;
+  margin-left: 520px;
+  margin-bottom: 130px;
+}
+
+main #subtitulo1 {
+  display: flex;
+  background-color: #1f9083;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+main #senai #imgsenai {
+  height: 400px;
+  width: 370px;
+  margin-left: 70px;
+  margin-top: -108px;
+  position: absolute;
+}
+
+main #senai #iconecasa {
+  height: 28px;
+  height: 28px;
+  margin-left: 500px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+main #escola {
+  margin-top: 50px;
+  margin-left: 550px;
+}
+
+main #info #imginfo {
+  width: 28px;
+  height: 28px;
+  margin-left: 500px;
+  margin-top: 45px;
+}
+
+main #textoinfo {
+  margin-left: 550px;
+  margin-top: -35px;
+  font-size: 18px;
+}
+
+main #local #imglocal {
+  width: 30px;
+  height: 30px;
+  margin-left: 500px;
+  margin-top: -2px;
+  position: absolute;
+}
+
+main #local #textolocal {
+  margin-left: 550px;
+  font-size: 23px;
+  margin-top: 35px;
+}
+
+main #imgtelefone {
+  width: 28px;
+  height: 28px;
+  margin-left: 501px;
+  margin-top: -3px;
+  position: absolute;
+}
+
+main #telefone #numerotelefone {
+  margin-left: 550px;
+  margin-top: 43px;
+  font-size: 20px;
+}
+
+main #subtitulo2 {
+  display: flex;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+main #container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 0px;
+}
+main #container1 #caixalima {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ece8e8;
+  width: 405px;
+  height: 242px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px rgb(145, 145, 144);
+  -webkit-box-shadow: 2px 2px 2px rgb(160, 160, 158);
+  -moz-box-shadow: 2px 2px 2px rgb(94, 94, 82);
+  border: solid 1px gray;
+}
+
+main #container1 #caixahare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ece8e8;
+  width: 405px;
+  height: 242px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px rgb(145, 145, 144);
+  -webkit-box-shadow: 2px 2px 2px rgb(160, 160, 158);
+  -moz-box-shadow: 2px 2px 2px rgb(94, 94, 82);
+  border: solid 1px gray;
+}
+
+main #limatext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 210px;
+}
+
+main #imglima {
+  width: 405px;
+  height: 180px;
+  position: absolute;
+}
+main #haretext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 210px;
+}
+
+main #imghare {
+  width: 405px;
+  height: 180px;
+  position: absolute;
+}
+main #sop {
+  margin-left: 185px;
+  margin-top: 210px;
+}
+
+#caixas img:hover {
+  background-color: #000000;
+  opacity: 0.6;
+}
+
+main #container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main #container2 #caixasop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ece8e8;
+  width: 405px;
+  height: 242px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px rgb(145, 145, 144);
+  -webkit-box-shadow: 2px 2px 2px rgb(160, 160, 158);
+  -moz-box-shadow: 2px 2px 2px rgb(94, 94, 82);
+  border: solid 1px gray;
+}
+
+main #imgsop {
+  width: 405px;
+  height: 180px;
+  position: absolute;
+}
+
+main #caixafpoo1 {
+  background-color: #ece8e8;
+  width: 405px;
+  height: 242px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px rgb(145, 145, 144);
+  -webkit-box-shadow: 2px 2px 2px rgb(160, 160, 158);
+  -moz-box-shadow: 2px 2px 2px rgb(94, 94, 82);
+  border: solid 1px gray;
+}
+
+main #fpootext {
+  display: flex;
+  justify-content: center;
+  margin-top: 210px;
+}
+
+main #soptext {
+  display: flex;
+  justify-content: center;
+  margin-top: 210px;
+}
+main #imgfpoo {
+  width: 405px;
+  height: 180px;
+  position: absolute;
+  margin-top: 22px;
+}
+
+main #subtitulo3 {
+  display: flex;
+  background-color: #1f9083;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+main #container5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+main #dowlinux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ece8e8;
+  width: 405px;
+  height: 242px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px rgb(145, 145, 144);
+  -webkit-box-shadow: 2px 2px 2px rgb(160, 160, 158);
+  -moz-box-shadow: 2px 2px 2px rgb(94, 94, 82);
+  border: solid 1px gray;
+}
+
+main #codarlinux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ece8e8;
+  width: 405px;
+  height: 242px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px rgb(145, 145, 144);
+  -webkit-box-shadow: 2px 2px 2px rgb(160, 160, 158);
+  -moz-box-shadow: 2px 2px 2px rgb(94, 94, 82);
+  border: solid 1px gray;
+}
+
+main #imglinux {
+  width: 405px;
+  height: 180px;
+  position: absolute;
+}
+
+main #linux h2 {
+  width: 405px;
+  height: 180px;
+  position: absolute;
+}
+
+main #terminallinux {
+  width: 405px;
+  height: 180px;
+  position: absolute;
+}
+
+main #textlinux2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 210px;
+}
+
+main #textlinux1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 210px;
+}
+
+main a {
+  color: #000000;
+  text-decoration: solid;
+}
+
+main a:hover {
+  cursor: pointer;
+  color: #1f9083;
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    height: 1375px;
+  }
+
+  main #imghome #home {
+    width: 150px;
+    height: 100px;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+
+  main #titulo {
+    font-size: 7px;
+    margin-left: 50%;
+    margin-top: -26.5%;
+  }
+
+  main #texto {
+    font-size: 10px;
+    text-align: justify;
+    margin-right: 1.5%;
+    margin-left: 50%;
+    margin-bottom: 0px;
+  }
+
+  main #subtitulo1 {
+    width: 100%;
+    height: 30px;
+    margin-top: 7%;
+    padding: 0;
+  }
+
+  main #subtitulo1 h1 {
+    font-size: 10px;
+  }
+
+  main #senai #imgsenai {
+    height: 300px;
+    width: 200px;
+    margin-left: 1%;
+    margin-top: -6.5%;
+  }
+
+  main #senai #iconecasa {
+    height: 20px;
+    margin-left: 60%;
+    margin-top: 3%;
+  }
+
+  main #escola {
+    margin-top: 3%;
+    margin-left: 67%;
+  }
+
+  main #escola h1 {
+    font-size: 7px;
+    text-align: justify;
+    margin-right: 3%;
+  }
+
+  main #escola h4 {
+    font-size: 5px;
+  }
+
+  main #info #imginfo {
+    width: 23px;
+    height: 20px;
+    margin-left: 60%;
+    margin-top: 5%;
+  }
+
+  main #textoinfo {
+    margin-left: 67%;
+    margin-top: -6%;
+    font-size: 18px;
+  }
+
+  main #textoinfo h5 {
+    font-size: 9px;
+    text-align: justify;
+    margin-right: 3%;
+    margin-left: 1.5%;
+  }
+
+  main #local #imglocal {
+    width: 23px;
+    height: 20px;
+    margin-left: 60%;
+    margin-top: 4%;
+  }
+
+  main #local #textolocal {
+    margin-left: 67.5%;
+    font-size: 10px;
+    margin-top: 4%;
+  }
+
+  main #imgtelefone {
+    width: 23px;
+    height: 20px;
+    margin-left: 60%;
+    margin-top: 7%;
+  }
+
+  main #telefone #numerotelefone {
+    margin-left: 67.5%;
+    margin-top: 10%;
+    font-size: 9px;
+  }
+
+  main #subtitulo2 {
+    margin-top: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 60px;
+    width: 100%;
+  }
+
+  main #container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0;
+    margin: 0;
+  }
+  main #container1 #caixalima {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #ece8e8;
+    -webkit-box-shadow: 2px 2px 2px rgb(160, 160, 158);
+  }
+
+  main #container1 #caixalima #imglima {
+    width: 150px;
+    height: 90px;
+    margin: 0;
+  }
+
+  main #container1 #caixalima #limatext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100%;
+  }
+
+  main #container1 #caixalima #limatext h2 {
+    font-size: 7px;
+  }
+
+  main #container1 #caixahare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #ece8e8;
+    -webkit-box-shadow: 2px 2px 2px rgb(160, 160, 158);
+  }
+
+  main #container1 #caixahare #imghare {
+    width: 150px;
+    height: 90px;
+    margin: 0;
+  }
+
+  main #container1 #caixahare #haretext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100%;
+  }
+
+  main #container1 #caixahare #haretext h2 {
+    font-size: 7px;
+  }
+
+  main #container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0;
+    margin: 0;
+    margin-top: 12%;
+  }
+
+  main #container2 #caixasop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #ece8e8;
+    -webkit-box-shadow: 2px 2px 2px rgb(160, 160, 158);
+  }
+
+  main #container2 #caixasop #imgsop {
+    width: 150px;
+    height: 90px;
+    margin: 0;
+  }
+
+  main #container2 #caixasop #soptext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100%;
+  }
+
+  main #container2 #caixasop #soptext h2 {
+    font-size: 10px;
+  }
+
+  main #container2 #caixafpoo1 {
+    display: flex;
+    justify-content: center;
+    position: none;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #ece8e8;
+    -webkit-box-shadow: 2px 2px 2px rgb(160, 160, 158);
+  }
+
+  main #container2 #caixafpoo1 #imgfpoo {
+    width: 150px;
+    height: 90px;
+    margin: 0;
+  }
+
+  main #container2 #caixafpoo1 #fpootext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100%;
+  }
+
+  main #container2 #caixafpoo1 #fpootext h2 {
+    font-size: 10px;
+  }
+
+  main #subtitulo3 {
+    width: 100%;
+    height: 30px;
+    margin-top: 15%;
+    padding: 0;
+  }
+
+  main #subtitulo3 h1 {
+    font-size: 10px;
+  }
+
+  main #container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  main #container5 #dowlinux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    margin-left: 3%;
+    margin-top: 10%;
+    border-radius: 5px;
+    background-color: #ece8e8;
+    -webkit-box-shadow: 2px 2px 2px rgb(160, 160, 158);
+  }
+
+  main #container5 #dowlinux #imglinux {
+    width: 150px;
+    height: 90px;
+    margin: 0;
+  }
+
+  main #container5 #dowlinux #textlinux1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100%;
+  }
+
+  main #container5 #dowlinux #textlinux1 h2 {
+    font-size: 10px;
+  }
+
+  main #container5 #codarlinux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    margin-right: 3%;
+    margin-top: 10%;
+    border-radius: 5px;
+    background-color: #ece8e8;
+    -webkit-box-shadow: 2px 2px 2px rgb(160, 160, 158);
+  }
+
+  main #container5 #codarlinux #terminallinux {
+    width: 150px;
+    height: 90px;
+    margin: 0;
+  }
+
+  main #container5 #codarlinux #textlinux2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100%;
+  }
+
+  main #container5 #codarlinux #textlinux2 h2 {
+    font-size: 10px;
+    margin: 0;
+  }
+
+  main #linhabaixo {
+    display: none;
+  }
+
+  main #linhacentro {
+    display: none;
+  }
+
+  main #linhameio {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 360px) and (max-width: 750px) {
+}

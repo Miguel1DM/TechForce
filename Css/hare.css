@@ -1,0 +1,96 @@
+@import "/Css/componentes/footer.css";
+@import "/Css/componentes/header.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: flex;
+    Flex-direction: column;
+    Align-items: center;
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 2250px;
+}
+
+main #titulo{
+    display: flex;
+    Justify-content: center;
+    Align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #1F9083;
+    margin-bottom: 5%;
+}
+
+main #titulo #titulo1{
+    color: white;
+}
+
+main #imagens1{
+    display: flex;
+    Align-items: center;
+    justify-content: center;
+    background-color: #1F9083;
+    width: 908px;
+    height: 981px;
+    margin-bottom: 5%;
+}
+ main #imagens1 #imagem1{
+    width: 797px;
+    height: 908px;
+ }
+
+ main #imagens2{
+    display: flex;
+    Align-items: center;
+    justify-content: center;
+    background-color: #1F9083;
+    width: 908px;
+    height: 981px;
+    margin-bottom: 5%;
+}
+
+main #imagens2 #imagem2{
+    width: 797px;
+    height: 908px;
+ }
+
+ @media screen and (max-width: 480px) {
+
+    main{
+           height: 1150px;
+    }
+
+    main #titulo{
+        width: 100%;
+        height: 30px;
+    }
+
+    main #titulo #titulo1{
+        color: white;
+        font-size: 15px;
+    }
+
+    main #imagens1{
+        width: 100%;
+        height: 525px;
+    }
+     main #imagens1 #imagem1{
+        width: 370px;
+        height: 500px;
+     }
+
+     main #imagens2{
+        width: 100%;
+        height: 525px;
+    }
+     main #imagens2 #imagem2{
+        width: 370px;
+        height: 500px;
+     }
+ }
