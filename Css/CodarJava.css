@@ -117,11 +117,13 @@ main #Botao:active:after {
     main #videoW{
         margin-top: 40px;
         margin-left: 5px;
-        width: 380px;
-        height: 200px;
+        width: 300px;
+        height: 150px;
     }
 
     main #Botao{
+        width: 150px;
+        height: 60px;
         margin-left: 50px;
     }
 }
