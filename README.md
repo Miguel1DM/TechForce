@@ -26,3 +26,4 @@
 * Para formatação do Readme em [Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
 * [CSS](https://www.devmedia.com.br/guia/css/38149)
 * [HTML](https://www.devmedia.com.br/guia/html/38051)
+* Responsividade usando [@media](https://www.treinaweb.com.br/blog/media-queries-o-que-sao-e-como-usar-no-css)
