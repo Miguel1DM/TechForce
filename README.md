@@ -1,6 +1,11 @@
 <h1>TechForce</h1>
 
-<br><p>Site feito como trabalho final de 'linguagem de marcação' afim de por todos os conhecimentos aprendidos em prática, no site foi feito uma pagina para cada matéria do curso ténico de Dev com suas grades curriculares, uma pagina home,  e uma página apenas para a nossa suadd .<p>
+<br><p>Site feito como trabalho final de 'linguagem de marcação' afim de por todos os conhecimentos aprendidos em prática, no site foi feito uma pagina para cada matéria do curso técnico de Dev com suas grades curriculares, uma pagina home, e uma página apenas para a nossa squad.</p>
+
+<br>
+<h2>Responsiviade</h2>
+
+<br> <p>Foi feita a responividade para celulares </p>
 
 
 <br> <img src="https://github.com/Miguel1DM/Cartao-de-visitas/blob/main/img/alfinete.png" width = "30px"/>**página hospedada no Netlify** [Netlify](https://techforce12.netlify.app)
