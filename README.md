@@ -15,6 +15,7 @@
 **Ferramentas utilizadas**
 * HTML
 * CSS
+* Netlify
 
 **Ambiente de desenvolvimento**
 * VSCODE
